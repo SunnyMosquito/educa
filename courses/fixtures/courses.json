@@ -1,0 +1,209 @@
+[
+{
+  "model": "courses.subject",
+  "pk": 1,
+  "fields": {
+    "title": "Mathematics",
+    "slug": "mathematics"
+  }
+},
+{
+  "model": "courses.subject",
+  "pk": 2,
+  "fields": {
+    "title": "Music",
+    "slug": "music"
+  }
+},
+{
+  "model": "courses.subject",
+  "pk": 3,
+  "fields": {
+    "title": "Physics",
+    "slug": "physics"
+  }
+},
+{
+  "model": "courses.subject",
+  "pk": 4,
+  "fields": {
+    "title": "Programming",
+    "slug": "programming"
+  }
+},
+{
+  "model": "courses.course",
+  "pk": 2,
+  "fields": {
+    "owner": 1,
+    "subject": 4,
+    "title": "Django course",
+    "slug": "django_course",
+    "overview": "django \u8bfe\u7a0b",
+    "created": "2018-08-01T06:47:57.643Z",
+    "students": [
+      1
+    ]
+  }
+},
+{
+  "model": "courses.module",
+  "pk": 1,
+  "fields": {
+    "course": 2,
+    "title": "\u6ca1\u4ec0\u4e48",
+    "description": "\u54c8\u54c8",
+    "order": 1
+  }
+},
+{
+  "model": "courses.content",
+  "pk": 7,
+  "fields": {
+    "module": 1,
+    "content_type": 13,
+    "object_id": 4,
+    "order": 0
+  }
+},
+{
+  "model": "courses.content",
+  "pk": 8,
+  "fields": {
+    "module": 1,
+    "content_type": 12,
+    "object_id": 2,
+    "order": 1
+  }
+},
+{
+  "model": "courses.content",
+  "pk": 9,
+  "fields": {
+    "module": 1,
+    "content_type": 10,
+    "object_id": 3,
+    "order": 2
+  }
+},
+{
+  "model": "courses.content",
+  "pk": 10,
+  "fields": {
+    "module": 1,
+    "content_type": 11,
+    "object_id": 1,
+    "order": 3
+  }
+},
+{
+  "model": "courses.text",
+  "pk": 1,
+  "fields": {
+    "owner": 1,
+    "title": "12",
+    "created": "2018-08-02T06:38:19.010Z",
+    "updated": "2018-08-02T06:38:19.010Z",
+    "content": "34"
+  }
+},
+{
+  "model": "courses.text",
+  "pk": 2,
+  "fields": {
+    "owner": 1,
+    "title": "12",
+    "created": "2018-08-02T06:40:03.066Z",
+    "updated": "2018-08-02T06:40:03.066Z",
+    "content": "34"
+  }
+},
+{
+  "model": "courses.text",
+  "pk": 3,
+  "fields": {
+    "owner": 1,
+    "title": "Django and Duke",
+    "created": "2018-08-03T08:19:41.266Z",
+    "updated": "2018-08-03T08:19:41.266Z",
+    "content": "\u6ca1\u4ec0\u4e48"
+  }
+},
+{
+  "model": "courses.text",
+  "pk": 4,
+  "fields": {
+    "owner": 1,
+    "title": "\u7b2c\u4e00\u5929",
+    "created": "2018-08-03T08:33:05.781Z",
+    "updated": "2018-08-03T08:33:05.781Z",
+    "content": "this is text"
+  }
+},
+{
+  "model": "courses.file",
+  "pk": 1,
+  "fields": {
+    "owner": 1,
+    "title": "\u6587\u4ef6",
+    "created": "2018-08-03T08:34:35.370Z",
+    "updated": "2018-08-03T08:34:35.370Z",
+    "content": "files/user.csv"
+  }
+},
+{
+  "model": "courses.image",
+  "pk": 1,
+  "fields": {
+    "owner": 1,
+    "title": "\u7b2c\u4e00\u5929",
+    "created": "2018-08-02T07:27:25.100Z",
+    "updated": "2018-08-02T07:27:25.100Z",
+    "content": "images/8d735cc026d48b00077b419762477afd.jpg"
+  }
+},
+{
+  "model": "courses.image",
+  "pk": 2,
+  "fields": {
+    "owner": 1,
+    "title": "\u56fe\u7247",
+    "created": "2018-08-03T08:34:05.917Z",
+    "updated": "2018-08-03T08:34:05.918Z",
+    "content": "images/8d735cc026d48b00077b419762477afd_uGMhoVN.jpg"
+  }
+},
+{
+  "model": "courses.video",
+  "pk": 1,
+  "fields": {
+    "owner": 1,
+    "title": "\u5929\u7a7a\u4e4b\u57ce",
+    "created": "2018-08-03T08:14:30.490Z",
+    "updated": "2018-08-03T08:14:30.490Z",
+    "content": "https://www.youtube.com/watch?n=bgV39DlmZ2U"
+  }
+},
+{
+  "model": "courses.video",
+  "pk": 2,
+  "fields": {
+    "owner": 1,
+    "title": "\u7b2c\u4e00\u5929",
+    "created": "2018-08-03T08:19:14.746Z",
+    "updated": "2018-08-03T08:19:14.746Z",
+    "content": "https://www.youtube.com/watch?n=bgV39DlmZ2U"
+  }
+},
+{
+  "model": "courses.video",
+  "pk": 3,
+  "fields": {
+    "owner": 1,
+    "title": "\u89c6\u9891",
+    "created": "2018-08-03T08:34:20.938Z",
+    "updated": "2018-08-03T10:30:31.955Z",
+    "content": "https://www.youtube.com/watch?v=kXWhtmYTMkI"
+  }
+}
+]
